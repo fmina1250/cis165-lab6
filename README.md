@@ -80,11 +80,11 @@ Compile and run each program separately using the following terminal commands:
 ### Program 1: Body Mass Index (`bmi.cpp`)
 ```bash
 g++ -std=c++17 -Wall -Wextra bmi.cpp -o bmi
-./bmi
+./bmi or .\bmi
 ```
 
 ### Program 2: Color Mixer (`color_mixer.cpp`)
 ```bash
 g++ -std=c++17 -Wall -Wextra color_mixer.cpp -o color_mixer
-./color_mixer
+./color_mixer or .\bmi
 ```
