@@ -86,5 +86,5 @@ g++ -std=c++17 -Wall -Wextra bmi.cpp -o bmi
 ### Program 2: Color Mixer (`color_mixer.cpp`)
 ```bash
 g++ -std=c++17 -Wall -Wextra color_mixer.cpp -o color_mixer
-./color_mixer or .\bmi
+./color_mixer or .\color_mixer
 ```
