@@ -1,0 +1,6 @@
+# AI Reflection
+
+* **Tools used:** I used Gemini as an AI collaborator to help structure the code, format the `README.md` project plan, and review C++ requirements such as input validation and character-array string comparisons.
+* **One decision:** I accepted the suggestion to use `strcmp()` from `<cstring>` instead of the `==` operator for comparing the color names in `color_mixer.cpp`. Using `==` would have compared the memory address pointers of the character arrays rather than their actual text contents, so `strcmp()` was necessary for accurate string evaluation.
+* **Checking your work:** I verified the BMI calculation by running a test case with 150 lbs and 70 inches. The program successfully validated the inputs, computed the unrounded BMI, and correctly displayed the formatted output as `21.53` alongside the "Optimal weight" category message.
+* **Learning:** I can now comfortably write C++ programs featuring input validation, formatted console output via `<iomanip>`, and character-array processing. One thing I still need to practice is handling Git workflows, committing changes, and pushing through the terminal without getting tripped up by text editors like Vim. I double check the repository to prevent submission problems.
